@@ -1,0 +1,30 @@
+{
+  "schema": "deploy-relay.deployment.v1",
+  "project": {
+    "id": "test_repo_dra_v2",
+    "name": "DRA V2 Testprojekt"
+  },
+  "source": {
+    "repository": "TheDaimos/Test-Repo-DRA-V2",
+    "mode": "repository_contents"
+  },
+  "deployment": {
+    "root": "/config",
+    "groups": [
+      {
+        "id": "testdata",
+        "source": "payload",
+        "target": "dra_v2_testprojekt",
+        "mode": "replace_directory"
+      }
+    ]
+  },
+  "lifecycle": {
+    "after_install": "none"
+  },
+  "policy": {
+    "allow_symlinks": false,
+    "max_files": 8,
+    "max_uncompressed_bytes": 32768
+  }
+}
