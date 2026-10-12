@@ -1,0 +1,10 @@
+DRA V2 – Testinstallation
+==========================
+
+Testprojekt: TheDaimos/Test-Repo-DRA-V2
+Teststand: 1
+Zielordner: /config/dra_v2_testprojekt
+
+Dies ist eine ausschließlich künstliche Datei.
+Sie darf durch DRA V2 installiert und bei weiteren Testständen ersetzt werden.
+Kein Bestandteil einer Home-Assistant-Integration.
