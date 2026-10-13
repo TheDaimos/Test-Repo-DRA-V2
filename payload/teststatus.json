@@ -1,6 +1,6 @@
 {
   "schema": "dra-v2-safe-test.v1",
-  "teststand": 5,
+  "teststand": 6,
   "projekt": "Test-Repo-DRA-V2",
   "installation": "synthetische Testdaten",
   "erwarteter_zielordner": "/config/dra_v2_testprojekt",
